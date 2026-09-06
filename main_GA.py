@@ -40,9 +40,7 @@ Next Population
 Repeat
 
 """
-"""
-LIX
-"""
+
 # ---------------------------------------------------------------------
 # IMPORTATION
 # ---------------------------------------------------------------------
@@ -56,7 +54,7 @@ import random
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Set
-
+from math import *
 import numpy as np
 import torch
 from deap import base, creator, tools
