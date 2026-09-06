@@ -28,7 +28,7 @@ Q Best Feasible
       ↓
 Mutation
       ↓
-Constraint Verification + Time
+Constraint Verifiion + Time
       ↓
 T Best Feasible
       ↑
@@ -39,6 +39,8 @@ Next Population
       ↓
 Repeat
 
+"""
+"""
 """
 # ---------------------------------------------------------------------
 # IMPORTATION
@@ -85,7 +87,6 @@ NHEAD = None
 NUM_LAYERS = None
 DIM_FEEDFORWARD = None
 MLP_HIDDEN_DIMS = None
-CAT_DIMS= None
 
 
 @dataclass
