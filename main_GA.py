@@ -21,6 +21,7 @@ Threshold
       ↓
 Constraint Verification
       ↓
+      
 Q Best Feasible
       ↑
       │ insufficient Q
