@@ -74,8 +74,6 @@ Q_FEASIBLE = None
 T_NEXT = None
 PREDICTION_THRESHOLD = None
 MAX_GENERATIONS = None
-xx= None
-
 M = None
 P = None
 D_MODEL = None
