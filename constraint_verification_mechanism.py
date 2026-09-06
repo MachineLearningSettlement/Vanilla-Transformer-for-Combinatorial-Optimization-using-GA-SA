@@ -1,7 +1,4 @@
 """
-Constraint verifier for the combinatorial project-scheduling problem
-described in L'X.docx.
-
 The verifier checks the constraints one-by-one and reports every
 violation rather than stopping at the first failure.
 
