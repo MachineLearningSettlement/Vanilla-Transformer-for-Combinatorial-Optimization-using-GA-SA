@@ -64,7 +64,7 @@ MLP_WEIGHTS = ROOT / "time_prediction_mlp_weights.pt"
 
 
 # ---------------------------------------------------------------------
-# CONFIGURATION__
+# CONFIGURATION
 # ---------------------------------------------------------------------
 
 POPULATION_SIZE = None
@@ -74,6 +74,7 @@ Q_FEASIBLE = None
 T_NEXT = None
 PREDICTION_THRESHOLD = None
 MAX_GENERATIONS = None
+xx= None
 
 M = None
 P = None
