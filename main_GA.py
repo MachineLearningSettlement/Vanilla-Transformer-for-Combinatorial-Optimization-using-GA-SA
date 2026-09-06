@@ -85,6 +85,7 @@ NHEAD = None
 NUM_LAYERS = None
 DIM_FEEDFORWARD = None
 MLP_HIDDEN_DIMS = None
+CAT_DIMS= None
 
 
 @dataclass
