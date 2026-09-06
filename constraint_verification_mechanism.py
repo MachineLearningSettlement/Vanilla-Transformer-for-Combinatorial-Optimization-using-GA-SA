@@ -19,8 +19,7 @@ Variables represented here:
     te                  project end time in hours
 
 IMPORTANT:
-The document's definition of O is visually ambiguous. Therefore O
-must be supplied explicitly instead of being guessed.
+O = the set of tasks that start at time 0.
 """
 
 from math import ceil, isclose
