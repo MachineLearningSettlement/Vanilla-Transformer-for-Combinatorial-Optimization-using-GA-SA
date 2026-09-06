@@ -59,7 +59,6 @@ import numpy as np
 import torch
 from deap import base, creator, tools
 
-
 ROOT = Path(__file__).resolve().parent
 VANILLA_FILE = ROOT / "Vanilla_MLP_for_time_prediction.py"
 VERIFIER_FILE = ROOT / "constraint_verification_mechanism.py"
