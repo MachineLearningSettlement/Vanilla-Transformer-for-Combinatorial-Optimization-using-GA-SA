@@ -1,3 +1,45 @@
+"""
+Initial Population
+      ↓
+GA → Candidates
+      ↓
+Vanilla + MLP
+      ↓
+Prediction Threshold
+      ↓
+Constraint Verification
+      ↓
+N Best Feasible
+      ↓
+Crossover
+      ↓
+P Offspring
+      ↓
+Vanilla + MLP
+      ↓
+Threshold
+      ↓
+Constraint Verification
+      ↓
+Q Best Feasible
+      ↑
+      │ insufficient Q
+      └── Crossover Loop
+      ↓
+Mutation
+      ↓
+Constraint Verification + Time
+      ↓
+T Best Feasible
+      ↑
+      │ insufficient T
+      └── Mutation Loop
+      ↓
+Next Population
+      ↓
+Repeat
+"""
+
 from __future__ import annotations
 
 import copy
