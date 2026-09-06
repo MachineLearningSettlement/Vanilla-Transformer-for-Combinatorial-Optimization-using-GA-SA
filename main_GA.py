@@ -21,7 +21,6 @@ Threshold
       ↓
 Constraint Verification
       ↓
-      
 Q Best Feasible
       ↑
       │ insufficient Q
@@ -287,6 +286,8 @@ def crossover(a: Schedule, b: Schedule):
 
     a.te, b.te = max(a.tF), max(b.tF)
     return a, b
+
+
 
 
 def mutate(s: Schedule, problem: Problem):
