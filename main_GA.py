@@ -454,6 +454,6 @@ def run(problem: Problem):
 
 if __name__ == "__main__":
     raise SystemExit(
-        "Set the actual GA parameters, trained-model architecture/weights, "
+        "Set the actual GA parameters and trained-model architecture/weights, "
         "and scheduling instance before calling run(problem)."
     )
