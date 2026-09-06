@@ -1,3 +1,17 @@
+
+from __future__ import annotations
+
+import copy
+import importlib.util
+import random
+from dataclasses import dataclass
+from pathlib import Path
+from typing import List, Set
+from math import *
+import numpy as np
+import torch
+from deap import base, creator, tools
+
 """
 Initial Population
       ↓
@@ -41,23 +55,6 @@ Repeat
 
 """
 
-# ---------------------------------------------------------------------
-# IMPORTATION
-# ---------------------------------------------------------------------
-
-
-from __future__ import annotations
-
-import copy
-import importlib.util
-import random
-from dataclasses import dataclass
-from pathlib import Path
-from typing import List, Set
-from math import *
-import numpy as np
-import torch
-from deap import base, creator, tools
 
 ROOT = Path(__file__).resolve().parent
 VANILLA_FILE = ROOT / "Vanilla_MLP_for_time_prediction.py"
