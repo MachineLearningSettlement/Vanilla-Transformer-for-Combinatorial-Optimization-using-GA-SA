@@ -28,7 +28,7 @@ Q Best Feasible
       ↓
 Mutation
       ↓
-Constraint Verification +  Time
+Constraint Verification + Time
       ↓
 T Best Feasible
       ↑
@@ -64,7 +64,7 @@ MLP_WEIGHTS = ROOT / "time_prediction_mlp_weights.pt"
 
 
 # ---------------------------------------------------------------------
-# CONFIGURATION
+# CONFIGURATION__
 # ---------------------------------------------------------------------
 
 POPULATION_SIZE = None
