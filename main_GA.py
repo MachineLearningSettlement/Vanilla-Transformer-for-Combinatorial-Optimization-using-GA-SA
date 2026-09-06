@@ -1,5 +1,4 @@
 """
-
 Initial Population
       ↓
 GA → Candidates
@@ -29,7 +28,7 @@ Q Best Feasible
       ↓
 Mutation
       ↓
-Constraint Verification + Time
+Constraint Verification +  Time
       ↓
 T Best Feasible
       ↑
