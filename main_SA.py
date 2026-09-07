@@ -87,6 +87,10 @@ MLP_WEIGHTS = ROOT / "time_prediction_mlp_weights.pt"
 # CONFIGURATION
 # ============================================================================
 
+"""
+SET YOUR PARAMS BASED ON YOUR TAILORED PROJECT
+"""
+
 INITIAL_TEMPERATURE = None
 COOLING_RATE = None
 PROMISING_THRESHOLD = None
