@@ -67,7 +67,9 @@ MLP_WEIGHTS = ROOT / "time_prediction_mlp_weights.pt"
 # ---------------------------------------------------------------------
 # CONFIGURATION
 # ---------------------------------------------------------------------
-
+"""
+Put your params based on your tailord Project 
+"""
 POPULATION_SIZE = None
 N_BEST = None
 P_OFFSPRING = None
