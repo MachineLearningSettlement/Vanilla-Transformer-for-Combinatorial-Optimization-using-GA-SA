@@ -88,14 +88,14 @@ MLP_WEIGHTS = ROOT / "time_prediction_mlp_weights.pt"
 # ============================================================================
 
 
-"""
-SET YOUR PARAMS BASED ON YOUR TAILORED PROJECT
-"""
-
 INITIAL_TEMPERATURE = None
 COOLING_RATE = None
 PROMISING_THRESHOLD = None
 MAX_ITERATIONS = None
+
+"""
+SET YOUR PARAMS BASED ON YOUR TAILORED PROJECT
+"""
 
 # Maximum number of generated neighbors examined inside one SA iteration
 # before failing explicitly instead of silently looping forever.
